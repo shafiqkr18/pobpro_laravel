@@ -1,0 +1,97 @@
+/*
+ *
+ * Sidebar
+ *
+ */
+.navbar-default {
+	position: relative;
+}
+
+.nav-header {
+	background: #2a3948;
+}
+
+.company-logo-wrap {
+	position: relative;
+	border-bottom: 1px solid #4c5865;
+	padding: 8px;
+}
+
+.company-logo-wrap > img {
+	max-height: 45px;
+	width: auto !important;
+}
+
+body.mini-navbar .company-logo-wrap > img {
+	display: none;
+}
+
+.navbar-minimalize {
+	padding: 5px;
+	border: 0;
+	background: none;
+	margin-left: auto;
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	margin-top: -15px;
+}
+
+.navbar-minimalize:hover {
+	background: none;
+}
+
+.navbar-minimalize i {
+	font-size: 16px;
+}
+
+body.mini-navbar .navbar-minimalize {
+	position: initial;
+	right: initial;
+	top: initial;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.sidebar-footer {
+	padding: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.sidebar-footer span {
+	color: #8b9197;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+
+/*
+ *
+ * Navbar
+ *
+ */
+.navbar-header.company-name  {
+	padding-left: 40px;
+}
+
+.navbar-header.company-name span {
+	font-weight: bold;
+	color: #6d6d6d;
+	font-size: 13px;
+}
+
+.navbar-top-links {
+	padding-right: 40px;
+}
+
+.navbar-top-links .count-info i {
+	font-size: 16px;
+}
+
+.navbar-top-links .count-info .label {
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}

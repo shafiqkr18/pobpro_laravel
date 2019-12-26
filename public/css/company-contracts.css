@@ -1,0 +1,63 @@
+.dropdown-toggle::after {
+	content: none;
+}
+
+.header-buttons .search {
+	position: relative;
+	display: flex;
+}
+
+.header-buttons .search:before {
+	font-family: 'Font Awesome 5 Free';
+	content: '\f002';
+	color: #1ab394;
+	font-size: 14px;
+	font-weight: 900;
+	position: absolute;
+	left: 10px;
+	top: 7px;
+}
+
+.header-buttons .search input[type="text"] {
+	min-width: 250px;
+	border-color: #a9a8a8 !important;
+	padding-left: 32px;
+	color: #676a6c;
+	font-size: 12px;
+	height: 29px;
+}
+
+.header-buttons a.btn:not(.btn-success) {
+	border-color: #a9a8a8;
+}
+
+.no-padding-form-group .form-group {
+	padding: 0 !important;
+}
+
+.no-padding-form-group .form-group.form-inline > label {
+	width: 45%;
+	max-width: 45%;
+	min-width: auto;
+}
+
+.contractor .ibox-title {
+	padding-right: 15px;
+}
+
+.contractor-img {
+	height: 30px;
+	overflow: hidden;
+	/* margin-bottom: 16px; */
+}
+
+.contractor-img img {
+	object-fit: cover;
+	width: auto;
+	height: 100%;
+}
+
+.dropzone {
+	border: 0 !important;
+	background: #e2efee;
+}

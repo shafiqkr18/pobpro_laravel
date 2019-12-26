@@ -1,0 +1,46 @@
+.jstree-default .jstree-node > .jstree-ocl {
+	margin-right: 15px;
+}
+
+.jstree-default .jstree-anchor {
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.jstree-default .jstree-clicked {
+	background: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.jstree-default .jstree-hovered {
+	background: none;
+	border-radius: 0;
+	box-shadow: none;
+	color: #1ab394;
+	font-weight: bold;
+}
+
+.jstree-open  > .jstree-anchor {
+	color: #1ab394;
+	font-weight: bold;
+}
+
+.sortable.link-added {
+	font-weight: bold;
+}
+
+.sortable.link-added:hover {
+	color: #676a6c !important;
+}
+
+.sortable i.remove-link {
+	display: none;
+	position: absolute;
+	top: 7px;
+	right: -20px;
+}
+
+.sortable.link-added i.remove-link {
+	display: inline-block;
+}

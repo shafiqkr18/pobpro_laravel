@@ -1,0 +1,149 @@
+body {
+	font-size: 12px;
+}
+
+.nav-header {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.gray-bg {
+	background: #f3f3f4 !important;
+}
+
+#page-wrapper {
+	padding-bottom: 40px;
+}
+
+.ibox-content.sk-loading:after {
+	z-index: 999;
+}
+
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.hide {
+	display: none !important;
+}
+
+.text-primary-color {
+	color: #676a6c;
+}
+
+.note-toolbar-wrapper {
+	min-height: 41px;
+}
+
+/*
+* Sidebar Nav
+*/
+#side-menu .nav-header img {
+	width: 60%;
+}
+
+#side-menu > li > a {
+	text-transform: uppercase;
+}
+
+.nav-fourth-level li a {
+	padding-left: 72px;
+}
+
+.nav.nav-fourth-level > li.active {
+	border: none;
+}
+
+/*
+* Table
+*/
+td.action-column > a {
+	font-size: 13px;
+}
+
+td.action-column > a:not(:first-child) {
+	margin: 0;
+	margin-left: 7px !important;
+}
+
+/*
+* Modals
+*/
+.inmodal .modal-header {
+	padding: 7px 10px;
+	text-align: left;
+}
+
+
+.ibox {
+	margin-bottom: 10px;
+}
+
+.dataTables_wrapper {
+	padding: 0;
+}
+
+.btn-create {
+	background-color: #1c84c6 !important;
+	border-color: #1c84c6 !important;
+	color: #fff !important;
+}
+
+.custom-file {
+	height: 31px;
+}
+
+.custom-file-label,
+.custom-file-label::after {
+	padding: 3px 10px;
+}
+
+.custom-file-label::after {
+	height: 29px;
+}
+
+.modal form label {
+	font-size: 12px;
+}
+
+.input-group-addon {
+	background-color: #fff !important;
+	border-width: 1px 0 1px 1px !important;
+	margin: 0 !important;
+}
+
+.has-error .note-editor.note-frame {
+	border-color: #ed5565;
+}
+
+
+.dd-handle span {
+	font-weight: normal;
+}
+
+.modal-lg.xl {
+	max-width: 1093px;
+}
+
+.no-tasks {
+	display: flex;
+	flex-direction: column;
+}
+
+.no-tasks h2 {
+	margin-bottom: 5px;
+}
+
+.no-tasks .list-group {
+	flex: 1;
+	background: #f3f3f4;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0 !important;
+}
+
+:focus {
+	outline: none;
+}

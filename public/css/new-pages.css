@@ -1,0 +1,157 @@
+.breadcrumb > li {
+	color: #8c8c8c;
+}
+
+.ibox-title {
+	background-color: #e2efee;
+}
+
+.ibox-title.indented {
+	padding-left: 35px;
+}
+
+.ibox-title h5,
+.section-title {
+	font-size: 14px;
+	color: #489a7c;
+}
+
+.flot-chart.dashboard-chart,
+.statistic-box {
+	margin-top: 20px;
+}
+
+.no-tasks .list-group {
+	margin-top: 20px !important;
+}
+
+.page-heading {
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+
+.page-heading h2 {
+	margin: 5px 0 0;
+	font-weight: 500;
+}
+
+.breadcrumb {
+	background: none;
+}
+
+.breadcrumb > li a {
+	color: #8c8c8c;
+}
+
+.breadcrumb > li strong {
+	font-weight: normal !important;
+	color: #676a6c;
+}
+
+dt {
+	font-weight: normal;
+}
+
+dd {
+	font-weight: bold;
+}
+
+.ibox {
+	margin-bottom: 0;
+}
+
+.ibox-title {
+	min-height: 46px;
+	border-top: 0;
+}
+
+.ibox-content {
+	border: 0;
+}
+
+/*
+ *
+ * Data tables
+ *
+ */
+body table.dataTable {
+	border-collapse: collapse !important;
+}
+
+body table.dataTable thead .sorting:after,
+body table.dataTable thead .sorting_asc:after {
+	display: none !important;
+}
+
+table.dataTable thead>tr>th.sorting_asc, 
+table.dataTable thead>tr>th.sorting_desc, 
+table.dataTable thead>tr>th.sorting, 
+table.dataTable thead>tr>td.sorting_asc, 
+table.dataTable thead>tr>td.sorting_desc, 
+table.dataTable thead>tr>td.sorting {
+	padding-right: 8px !important;
+}
+
+td.action-column, 
+td.action-column a {
+	display: flex;
+	align-items: center;
+	justify-content: center;;
+}
+
+
+
+/*
+ *
+ * Forms
+ *
+ */
+.form-group.form-inline {
+	flex-wrap: nowrap;
+	padding: 0 15px;
+}
+
+.form-group.form-inline > label {
+	width: 140px;
+	min-width: 140px;
+	justify-content: flex-start;
+}
+
+.form-group.form-inline > p {
+	margin-bottom: 0;
+	flex: 1;
+	align-self: flex-start;
+}
+
+.form-group.form-inline input, 
+.form-group.form-inline select, 
+.form-group.form-inline textarea,
+.form-group.form-inline .input-daterange,
+.form-group.form-inline .note-editor {
+	flex: 1;
+}
+
+.min-detail .form-group.form-inline > label {
+	width: 30%;
+	min-width: auto;
+	max-width: 77px;
+	justify-content: flex-start;
+}
+
+.min-detail .form-group.form-inline p {
+	margin-bottom: 0;
+	width: 70%;
+	align-self: flex-start;
+}
+
+.min-detail .form-group.form-inline input, 
+.min-detail .form-group.form-inline select, 
+.min-detail .form-group.form-inline textarea,
+.min-detail .form-group.form-inline .input-daterange, 
+.min-detail .form-group.form-inline .input-group.date {
+	flex: 1;
+}
+
+.custom-file-label {
+	justify-content: flex-start !important;
+}

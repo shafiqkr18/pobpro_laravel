@@ -1,0 +1,45 @@
+.hide {
+	display: none !important;
+}
+
+.sections li {
+	border: 1px dashed #e7eaec;
+	padding: 0 10px;
+	background: #f3f3f4;
+	color: #333;
+}
+
+.sections li span.name {
+	flex: auto;
+	padding: 10px 0;
+	cursor: pointer;
+}
+
+.sections li span.name:hover {
+	color: #1ab394;
+}
+
+.sections li a.action {
+	padding: 10px 0;
+}
+
+.sections li a:last-child {
+	padding: 10px 0;
+}
+
+.sections li a:last-child:hover {
+	color: #1ab394 !important;
+}
+
+.sections li.selected span.name,
+.sections li.selected a:last-child {
+	color: #1ab394 !important;
+	font-weight: bold;
+}
+
+
+.positions-table tbody tr > td:nth-child(2), 
+.positions-table tbody tr > td:nth-child(3), 
+.positions-table tbody tr > td:nth-child(4) {
+	text-align: center;
+}

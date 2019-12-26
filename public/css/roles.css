@@ -1,0 +1,95 @@
+.custom-file-label,
+.custom-file-label::after {
+	padding: 3px 10px;
+}
+
+.custom-file-label::after {
+	height: 29px;
+}
+
+.role-group > div:last-child .name,
+.role-group > div:last-child .function {
+	padding-bottom: 8px;
+}
+
+.role-group > .role-group .name {
+	padding-left: 2rem;
+	/* margin-bottom: 10px; */
+}
+
+.role-group > .role-group > div:nth-child(even) {
+	background: #f8f8f8;
+}
+
+.i-checks input[type="checkbox"] {
+	position: absolute;
+	opacity: 0;
+}
+
+.i-checks input[type="checkbox"] + label {
+	position: relative;
+	cursor: pointer;
+	padding: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+.i-checks input[type="checkbox"] + label:before {
+	content: '';
+	margin-right: 10px;
+	margin-top: 4px;
+	display: inline-block;
+	vertical-align: text-top;
+	width: 12px;
+	height: 12px;
+	background: white;
+	border: 1px solid #e7eaec;
+}
+
+.i-checks input[type="checkbox"]:checked + label:before {
+	background: #18a689;
+	border-color: #18a689;
+}
+
+.i-checks input[type="checkbox"]:checked + label:after {
+	content: '\f00c';
+	font: normal normal normal 8px/1 FontAwesome;
+	position: absolute;
+	left: 2px;
+	top: 6px;
+	color: #fff;
+}
+
+/* .root:nth-child(even) {
+	background: #f3f3f4;
+} */
+
+.permission-row {
+	display: flex;
+	flex: 0 0 100%;
+	flex-wrap: nowrap;
+}
+
+.permission-row .name {
+	flex: 0 0 50%;
+	padding: 5px 8px;
+}
+
+.permission-row .name h5 {
+	padding: 5px;
+}
+
+.permission-row .function {
+	flex: 0 0 12.5%;
+	text-align: center;
+	border-left: 1px solid #e7eaec;
+	padding: 4px 8px;
+}
+
+.root {
+	flex: 0 0 100%;
+}
+
+.i-checks.hidden {
+	display: none;
+}

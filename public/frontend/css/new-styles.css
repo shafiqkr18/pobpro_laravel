@@ -1,0 +1,15 @@
+.form-group.form-inline {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+}
+
+.form-group.form-inline > label {
+	width: 140px;
+	justify-content: flex-start;
+}
+
+.form-group.form-inline > p {
+	flex: 1;
+	margin: 0;
+}

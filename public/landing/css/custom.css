@@ -1,0 +1,10 @@
+.pricing-plan.professional .pricing-title,
+.pricing-plan.professional li .btn-primary {
+	background: #127d73;
+	border-color: #127d73;
+}
+.pricing-plan.premium .pricing-title,
+.pricing-plan.premium li .btn-primary {
+	background: #fa9b2c;
+	border-color: #fa9b2c;
+}

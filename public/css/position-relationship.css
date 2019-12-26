@@ -1,0 +1,144 @@
+.hide {
+	display: none;
+}
+
+.old .ibox-title {
+	background: #bdbdbd;
+}
+
+.old .ibox-title h5 {
+	color: #fff;
+}
+
+ul.positions {
+	padding-left: 20px;
+}
+
+.position.active .btn-wrap > span {
+	color: #489a7c;
+	font-weight: bold;
+}
+
+.positions-moved .badge i {
+	cursor: pointer;
+}
+
+/* .departments > li { 
+	position: relative;
+}
+
+.departments > li:before {
+	content: '';
+	width: 10px;
+	height: 1px;
+	border-top: 1px dashed #bdbdbd;
+	position: absolute;
+	right: calc(100% + 10px);
+	top: 8px;
+} */
+
+/* .positions > li { 
+	position: relative;
+}
+
+.positions > li:before {
+	content: '';
+	width: 25px;
+	height: 1px;
+	border-top: 1px dashed #bdbdbd;
+	position: absolute;
+	right: calc(100% + 5px);
+	top: 8px;
+} */
+
+.old .ibox-content {
+	position: relative;
+}
+
+.old .ibox-content.inactive:before {
+	content: '';
+	background: rgba(255, 255, 255, 0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+
+.i-checks input[type="checkbox"] {
+	position: absolute;
+	opacity: 0;
+}
+
+.i-checks input[type="checkbox"] + label {
+	position: relative;
+	cursor: pointer;
+	padding: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+.i-checks input[type="checkbox"] + label:before {
+	content: '';
+	margin-right: 10px;
+	margin-top: 4px;
+	display: inline-block;
+	vertical-align: text-top;
+	width: 12px;
+	height: 12px;
+	background: white;
+	border: 1px solid #e7eaec;
+}
+
+.i-checks input[type="checkbox"]:checked + label:before {
+	background: #18a689;
+	border-color: #18a689;
+}
+
+.i-checks input[type="checkbox"]:checked + label:after {
+	content: '\f00c';
+	font: normal normal normal 8px/1 FontAwesome;
+	position: absolute;
+	left: 2px;
+	top: 6px;
+	color: #fff;
+}
+
+.old .i-checks.moved {
+	position: relative;
+}
+
+.old .i-checks.moved:after {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.old .i-checks.moved label {
+	text-decoration: line-through;
+}
+
+.old .positions > li.selected .i-checks {
+	position: relative;
+}
+
+.old .positions > li.selected .i-checks:before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;	
+	z-index: 99;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.old .positions > li.selected .i-checks label {
+	text-decoration: line-through;
+}
